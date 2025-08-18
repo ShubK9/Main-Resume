@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Shubham Kumar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/aileron" rel="stylesheet" />
+  </head>
+  <body class="projects-page">
+    <nav>
+      <div class="logo">Shubham Kumar</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="project.html" class="active">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="hamburger"><span></span></div>
+    </nav>
+
+    <header class="projects-hero">
+      <h1>All <span class="highlight">Projects</span></h1>
+      <p class="projects-intro">
+        Browse my work across web applications, mobile apps, mini games, and
+        YouTube growth initiatives.
+      </p>
+      <div class="project-filters" role="tablist" aria-label="Project filters">
+        <button
+          class="filter-btn active"
+          data-filter="all"
+          role="tab"
+          aria-selected="true"
+        >
+          All
+        </button>
+        <button class="filter-btn" data-filter="web" role="tab">Web</button>
+        <button class="filter-btn" data-filter="app" role="tab">
+          App Projects
+        </button>
+        <button class="filter-btn" data-filter="game" role="tab">Games</button>
+        <button class="filter-btn" data-filter="youtube" role="tab">
+          YouTube Growth
+        </button>
+      </div>
+    </header>
+
+    <main
+      class="projects-collection"
+      id="projects-collection"
+      aria-live="polite"
+    >
+      <!-- Project items (can expand) -->
+      <div class="project-cards full">
+        <!-- Duplicate and extend from preview with extra examples -->
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-a">
+            <img src="img/3dport.png" alt="Portfolio SPA" class="project-img" />
+          </div>
+          <h3 class="project-title">Portfolio SPA</h3>
+          <p class="project-desc">
+            Fast, accessible single‑page portfolio with animated sections.
+          </p>
+          <span class="project-tag">Web</span>
+          <a href="https://3d-portf.netlify.app/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-b">
+            <img src="img/shopping.png" alt="TaskFlow Mobile" class="project-img">
+          </div>
+          <h3 class="project-title">E-Cart</h3>
+          <p class="project-desc">
+            A Online shopping platform for mens clothings.
+          </p>
+          <span class="project-tag">Web</span>
+            <a href="https://startling-starship-82cd60.netlify.app/" class="btn primary-btn">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="app">
+          <div class="project-media gradient-c">
+            <img src="img/thestudyias.png" alt="Pixel Runner" class="project-img">
+          </div>
+          <h3 class="project-title">The Study IAS</h3>
+          <p class="project-desc">
+            A website Built on React Native to work as both a web and mobile app.
+          </p>
+          <span class="project-tag">App</span>
+          <a href="https://website.thestudyias.info/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-d">
+            <img src="img/sydney.png" alt="Sydney" class="project-img" />
+          </div>
+          <h3 class="project-title">Sydney</h3>
+          <p class="project-desc">A Premium website for premium clothings.</p>
+          <span class="project-tag">Web</span>
+          <a href="https://dreamy-ganache-2b87e0.netlify.app/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-g">
+            <img src="img/todo.png" alt="To-Do List" class="project-img" />
+          </div>
+          <h3 class="project-title">To-DO List</h3>
+          <p class="project-desc">
+            A simple To-do list with unique design.
+          </p>
+          <span class="project-tag">Web</span>
+          <a href="https://keeptabsr.netlify.app/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="game">
+          <div class="project-media gradient-h"></div>
+          <h3 class="project-title">In Progress</h3>
+          <p class="project-desc">
+            I will make it soon.
+          </p>
+          <span class="project-tag">Game</span>
+          <a href="https://example.com" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="youtube">
+          <div class="project-media gradient-i"></div>
+          <h3 class="project-title">In Progress</h3>
+          <p class="project-desc">
+            will be updated soon.
+          </p>
+          <span class="project-tag">YouTube Growth</span>
+          <a href="https://example.com" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Shubham Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

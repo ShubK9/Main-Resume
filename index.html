@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shubham Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/aileron" rel="stylesheet" />
+    <!-- Aileron loaded via CDN (licensed under SIL Open Font License). -->
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Shubham Kumar</div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="project.html">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, <span class="highlight">I'm Shubham</span></h1>
+        <p>I build fast, modern web apps using React, Java, and more.</p>
+        <p class="type-line">
+          I am a <span id="typewriter-word"></span><span class="cursor"></span>
+        </p>
+        <a href="project.html" class="cta">View My Work</a>
+        <a href="#contact" class="cta">Contact me</a>
+      </div>
+      <div class="hero-animation">
+        <div id="lottie-hero" aria-label="Developer animation"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-left">
+        <div id="lottie-about" aria-label="About animation"></div>
+      </div>
+      <div class="about-right">
+        <h2>About <span class="highlight">Me</span></h2>
+        <p class="about-text">
+          I am a passionate front‑end developer focused on building performant,
+          accessible, and engaging digital products. I love blending clean UI
+          with smooth UX and SEO best practices.
+        </p>
+
+        <div class="about-metric">
+          <span id="live-counter" data-target="10">10</span>+ completed tasks
+        </div>
+
+        <div class="about-actions">
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          <!-- Replace cv/Shubham_Kumar_CV.pdf with your real file path -->
+          <a href="img/resume (1).pdf" download class="btn primary-btn"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="skills-inner">
+        <header class="skills-header">
+          <h2>Core <span class="highlight">Skills</span></h2>
+          <p class="skills-tagline">
+            Tools & technologies I use to craft performant, scalable products.
+          </p>
+        </header>
+        <div class="skills-grid" aria-label="Skill list">
+          <!-- Each card: icon (svg) + label -->
+          <div class="skill-card" role="listitem">
+            <div class="skill-icon html" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="3"
+              >
+                <path
+                  d="M12 4h40l-4 48-16 8-16-8-4-48Z"
+                  fill="#e34f26"
+                  stroke="#e34f26"
+                />
+                <path
+                  d="M20 14h24l-1 10H21l1 12 10 4 10-4 .5-6"
+                  stroke="#fff"
+                  stroke-width="4"
+                  fill="none"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">HTML</span>
+          </div>
+          <div class="skill-card" role="listitem">
+            <div class="skill-icon css" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="3"
+              >
+                <path
+                  d="M12 4h40l-4 48-16 8-16-8-4-48Z"
+                  fill="#1572b6"
+                  stroke="#1572b6"
+                />
+                <path
+                  d="M20 14h24l-1 10H21l1 12 10 4 10-4 .5-6"
+                  stroke="#fff"
+                  stroke-width="4"
+                  fill="none"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">CSS / Sass</span>
+          </div>
+          <div class="skill-card" role="listitem">
+            <div class="skill-icon js" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="32" height="32">
+                <rect width="64" height="64" rx="8" fill="#f7df1e" />
+                <path
+                  d="M29 18v24c0 5-2 8-7 8-2 0-4-.4-6-1.3l1.5-5c1 .6 2.4 1 3.7 1 2 0 3-.9 3-3V18h4Zm8 18c1.2 2 2.7 3.5 5 3.5 2.1 0 3.4-1 3.4-2.5 0-1.6-1.3-2.1-3.6-3l-1.2-.4c-3.5-1.3-5.8-3-5.8-6.7 0-3.3 2.6-5.8 6.6-5.8 2.9 0 5 1 6.5 3.7l-3.6 2.3c-.8-1.5-1.7-2.1-3-2.1-1.3 0-2.2.8-2.2 2 0 1.4.9 2 3 2.9l1.3.5c4.3 1.7 6.6 3.3 6.6 7 0 4-3.2 6.2-7.5 6.2-4.2 0-6.9-2-8.4-4.6L37 36Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon react" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="#61dafb"
+                stroke-width="3"
+              >
+                <circle cx="32" cy="32" r="5" fill="#61dafb" />
+                <ellipse cx="32" cy="32" rx="10" ry="26" />
+                <ellipse
+                  cx="32"
+                  cy="32"
+                  rx="26"
+                  ry="10"
+                  transform="rotate(60 32 32)"
+                />
+                <ellipse
+                  cx="32"
+                  cy="32"
+                  rx="26"
+                  ry="10"
+                  transform="rotate(120 32 32)"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">React Native</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon python" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="32" height="32">
+                <path
+                  fill="#3776ab"
+                  d="M32 6c-11 0-10 5-10 5v6h20V11s1-5-10-5Zm-10 11h-6s-5 0-5 10 5 10 5 10h6V27h10v-5H22Zm10 10h10v5h-10v-5Z"
+                />
+                <path
+                  fill="#ffcf3f"
+                  d="M32 58c11 0 10-5 10-5v-6H22v6s-1 5 10 5Zm10-11h6s5 0 5-10-5-10-5-10h-6v10H32v5h10Zm-10-10H22v-5h10v5Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">Python</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon java" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke="#f89820"
+                  d="M32 6s4 6-4 10c-8 4 8 6 8 6M20 40c-8 4 4 8 12 8s20-4 12-8M22 48c-6 3 2 6 10 6s16-3 10-6"
+                />
+                <path
+                  stroke="#5382a1"
+                  d="M26 34c-6 3 2 6 10 6s16-3 10-6M24 28c-8 4 4 8 12 8s20-4 12-8M34 18c6 3-2 6-10 6"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">Java</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon shell" aria-hidden="true">$</div>
+            <span class="skill-label">Shell Scripting</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon devops" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="3"
+              >
+                <path
+                  d="M20 42a10 10 0 1 1 0-20h4l8 10-8 10h-4Zm24-20a10 10 0 1 1 0 20h-4l-8-10 8-10h4Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">DevOps</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon api" aria-hidden="true">{ }</div>
+            <span class="skill-label">API</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon wordpress" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="32" height="32">
+                <circle cx="32" cy="32" r="28" fill="#21759b" />
+                <path
+                  fill="#fff"
+                  d="M44 26c0-3-1.1-5.2-2-6.8-1.2-2-2.3-3.7-2.3-5.8 0-1 .2-2 .5-2.8A23 23 0 0 0 32 9c-2.7 0-5.3.5-7.7 1.4.6.9 1.1 1.9 1.1 3 0 1.1-.3 2.2-.9 3.4l-4.2 12.6L25 48l6.7-20-3.2-8.9 3.4-1.4 7.4 21.1 2.4-7.3C42.9 30 44 28.1 44 26Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">WordPress</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon photoshop" aria-hidden="true">Ps</div>
+            <span class="skill-label">Photoshop</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon seo" aria-hidden="true">SEO</div>
+            <span class="skill-label">SEO Optimisation</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon spring" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="#6db33f"
+                stroke-width="3"
+              >
+                <path d="M50 14c4 12-2 28-12 34S18 50 14 38s2-28 12-34" />
+                <path d="M22 34c4 6 14 10 20 4" stroke-width="2" />
+              </svg>
+            </div>
+            <span class="skill-label">Spring Boot</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon git" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="#f05033"
+                stroke-width="4"
+              >
+                <path
+                  d="M12 28 28 12l24 24-16 16L12 28Z"
+                  fill="#f05033"
+                  stroke="#f05033"
+                />
+                <circle cx="28" cy="20" r="4" fill="#fff" />
+                <circle cx="36" cy="28" r="4" fill="#fff" />
+                <circle cx="28" cy="36" r="4" fill="#fff" />
+                <path stroke="#fff" stroke-width="3" d="M28 24v8l8-4-8 8" />
+              </svg>
+            </div>
+            <span class="skill-label">Git / GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Preview Section -->
+    <section id="projects" class="projects-preview">
+      <div class="projects-header">
+        <h2>Selected <span class="highlight">Projects</span></h2>
+        <p class="projects-sub">
+          A snapshot of things I've built across web, apps, games & growth.
+        </p>
+      </div>
+      <div class="project-cards">
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-a">
+            <img src="img/3dport.png" alt="3D-Portfolio" class="project-img">
+          </div>
+          <h3 class="project-title">3D-Portfolio</h3>
+          <p class="project-desc">
+            Fast, accessible single‑page portfolio with animated sections.
+          </p>
+          <span class="project-tag">Web</span>
+          <a href="https://3d-portf.netlify.app/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-b">
+            <img src="img/shopping.png" alt="TaskFlow Mobile" class="project-img">
+          </div>
+          <h3 class="project-title">E-Cart</h3>
+          <p class="project-desc">
+            A Online shopping platform for mens clothings.
+          </p>
+          <span class="project-tag">Web</span>
+            <a href="https://startling-starship-82cd60.netlify.app/" class="btn primary-btn">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="app">
+          <div class="project-media gradient-c">
+            <img src="img/thestudyias.png" alt="Pixel Runner" class="project-img">
+          </div>
+          <h3 class="project-title">The Study IAS</h3>
+          <p class="project-desc">
+            A website Built on React Native to work as both a web and mobile app.
+          </p>
+          <span class="project-tag">App</span>
+          <a href="https://website.thestudyias.info/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="web">
+          <div class="project-media gradient-d">
+            <img src="img/sydney.png" alt="Sydney" class="project-img" />
+          </div>
+          <h3 class="project-title">Sydney</h3>
+          <p class="project-desc">A Premium website for premium clothings.</p>
+          <span class="project-tag">Web</span>
+          <a href="https://dreamy-ganache-2b87e0.netlify.app/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+         <article class="project-card" data-type="web">
+          <div class="project-media gradient-g">
+            <img src="img/todo.png" alt="To-Do List" class="project-img" />
+          </div>
+          <h3 class="project-title">To-DO List</h3>
+          <p class="project-desc">
+            A simple To-do list with unique design.
+          </p>
+          <span class="project-tag">Web</span>
+          <a href="https://keeptabsr.netlify.app/" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+        <article class="project-card" data-type="app">
+          <div class="project-media gradient-f"></div>
+          <h3 class="project-title">In progress</h3>
+          <p class="project-desc">
+            I will Make it soon.
+          </p>
+          <span class="project-tag">App</span>
+          <a href="https://example.com" class="btn primary-btn" target="_blank">Live Demo</a>
+        </article>
+      </div>
+      <div class="projects-actions">
+        <a href="project.html" class="btn primary-btn">View All Projects</a>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+      <div class="experience-header">
+        <h2>Experience & <span class="highlight">Education</span></h2>
+        <p class="experience-sub">
+          A brief overview of my professional journey and academic background.
+        </p>
+      </div>
+      <div class="experience-edu-wrapper">
+        <div class="experience-timeline experience-left">
+          <h3 class="exp-title">Experience</h3>
+          <div class="exp-card">
+            <div class="exp-date">2025 - Present</div>
+            <div class="exp-details">
+              <h3 class="exp-title">Devloper and SEO Specialist</h3>
+              <p class="exp-company">The Study IAS</p>
+              <p class="exp-desc">Designed engaging interfaces for mobile and web, focusing on accessibility and performance. <br/> Incrased Impression in Millions by On-Page and Techinal SEO </p>
+            </div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-date">2023 - 2023</div>
+            <div class="exp-details">
+              <h3 class="exp-title">Freelance Developer</h3>
+              <p class="exp-company">Client Based Work</p>
+              <p class="exp-desc">Building modern web apps with React, JavaScript, and CSS. Led UI/UX improvements and SEO optimization.</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-timeline experience-right">
+          <h3 class="exp-title">Education</h3>
+          <div class="exp-card">
+            <div class="exp-date">2025 - Present</div>
+            <div class="exp-details">
+              <h3 class="exp-title">MCA in Software Engineering</h3>
+              <p class="exp-company">Amity University</p>
+              <p class="exp-desc">Persuing my Master's degree in software engineering and development.</p>
+            </div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-date">2022 - 2024</div>
+            <div class="exp-details">
+              <h3 class="exp-title">Advance Diploma in Website Devlopment</h3>
+              <p class="exp-company">Indian Institute of Computer Science (IICS)</p>
+              <p class="exp-desc">Learned the basics and advanced method of full stack development.</p>
+            </div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-date">2021 - 2024</div>
+            <div class="exp-details">
+              <h3 class="exp-title">Bsc. in Mathematics</h3>
+              <p class="exp-company">Patliputra University</p>
+              <p class="exp-desc">Completed my Bachelor's from Patliputra Univerity in Maths.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-header">
+        <h2>Contact <span class="highlight">Me</span></h2>
+        <p class="contact-sub">Connect with me on social media or send an email.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:sk311h@gmail.com" class="contact-link" aria-label="Email">
+          <span class="contact-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="6" fill="#EA4335"/>
+              <path d="M8 10v12h16V10H8zm8 7.5L10 12.5V12l6 4.5L22 12v.5l-6 5z" fill="#fff"/>
+            </svg>
+          </span>
+          sk311h@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/shubham-kumar-a0a20b2a7" class="contact-link" target="_blank" aria-label="LinkedIn">
+          <span class="contact-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="6" fill="#0A66C2"/>
+              <path d="M12 13h2v7h-2v-7zm1-2a1 1 0 110-2 1 1 0 010 2zm3 2h2v1h.03c.28-.53.97-1.09 2-1.09 2.14 0 2.54 1.41 2.54 3.25V20h-2v-3.25c0-.78-.02-1.78-1.09-1.78-1.09 0-1.26.85-1.26 1.72V20h-2v-7z" fill="#fff"/>
+            </svg>
+          </span>
+          LinkedIn
+        </a>
+        <a href="https://github.com/ShubK9" class="contact-link" target="_blank" aria-label="GitHub">
+          <span class="contact-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="6" fill="#181717"/>
+              <path d="M16 8c-4.42 0-8 3.58-8 8 0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.1 0 0 .67-.21 2.2.82a7.62 7.62 0 012-.27c.68.003 1.36.092 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.09.16 1.9.08 2.1.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0024 16c0-4.42-3.58-8-8-8z" fill="#fff"/>
+            </svg>
+          </span>
+          GitHub
+        </a>
+        <a href="https://wa.me/9711776389" class="contact-link" target="_blank" aria-label="WhatsApp">
+          <span class="contact-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="6" fill="#25D366"/>
+              <path d="M16 9a7 7 0 00-7 7c0 1.23.32 2.39.93 3.42l-1.01 3.7 3.8-1c.99.58 2.12.88 3.28.88a7 7 0 100-14zm0 12.5c-1.01 0-2-.27-2.85-.78l-.2-.12-2.25.59.6-2.18-.13-.21A5.5 5.5 0 1116 21.5zm2.7-4.1c-.15-.08-.9-.44-1.04-.49-.14-.05-.24-.08-.34.08-.1.15-.39.49-.48.59-.09.1-.18.11-.33.04-.15-.08-.64-.24-1.22-.77-.45-.4-.75-.89-.84-1.04-.09-.15-.01-.23.07-.31.07-.07.16-.18.24-.27.08-.09.11-.16.17-.27.06-.11.03-.2-.01-.28-.04-.08-.34-.82-.47-1.12-.12-.29-.25-.25-.34-.25-.09 0-.2-.01-.31-.01-.11 0-.28.04-.43.19-.15.15-.57.56-.57 1.36s.58 1.57.66 1.68c.08.11 1.14 1.74 2.77 2.37.39.16.7.25.94.32.4.13.77.11 1.06.07.32-.05.98-.4 1.12-.78.14-.38.14-.71.1-.78-.04-.07-.14-.11-.29-.19z" fill="#fff"/>
+            </svg>
+          </span>
+          WhatsApp
+        </a>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
