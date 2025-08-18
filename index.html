@@ -27,7 +27,7 @@
 
     <section class="hero">
       <div class="hero-text">
-        <h1>Hi, <span class="highlight">I'm Shubham</span></h1>
+        <h1>Welcome, <br /><span class="highlight"> Shubham Here</span></h1>
         <p>I build fast, modern web apps using React, Java, and more.</p>
         <p class="type-line">
           I am a <span id="typewriter-word"></span><span class="cursor"></span>
@@ -78,6 +78,84 @@
         </header>
         <div class="skills-grid" aria-label="Skill list">
           <!-- Each card: icon (svg) + label -->
+           <div class="skill-card">
+            <div class="skill-icon python" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="32" height="32">
+                <path
+                  fill="#3776ab"
+                  d="M32 6c-11 0-10 5-10 5v6h20V11s1-5-10-5Zm-10 11h-6s-5 0-5 10 5 10 5 10h6V27h10v-5H22Zm10 10h10v5h-10v-5Z"
+                />
+                <path
+                  fill="#ffcf3f"
+                  d="M32 58c11 0 10-5 10-5v-6H22v6s-1 5 10 5Zm10-11h6s5 0 5-10-5-10-5-10h-6v10H32v5h10Zm-10-10H22v-5h10v5Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">Python</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon java" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke="#f89820"
+                  d="M32 6s4 6-4 10c-8 4 8 6 8 6M20 40c-8 4 4 8 12 8s20-4 12-8M22 48c-6 3 2 6 10 6s16-3 10-6"
+                />
+                <path
+                  stroke="#5382a1"
+                  d="M26 34c-6 3 2 6 10 6s16-3 10-6M24 28c-8 4 4 8 12 8s20-4 12-8M34 18c6 3-2 6-10 6"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">Java</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon react" aria-hidden="true">
+              <svg
+                viewBox="0 0 64 64"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="#61dafb"
+                stroke-width="3"
+              >
+                <circle cx="32" cy="32" r="5" fill="#61dafb" />
+                <ellipse cx="32" cy="32" rx="10" ry="26" />
+                <ellipse
+                  cx="32"
+                  cy="32"
+                  rx="26"
+                  ry="10"
+                  transform="rotate(60 32 32)"
+                />
+                <ellipse
+                  cx="32"
+                  cy="32"
+                  rx="26"
+                  ry="10"
+                  transform="rotate(120 32 32)"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">React Native</span>
+          </div>
+          <div class="skill-card" role="listitem">
+            <div class="skill-icon js" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="32" height="32">
+                <rect width="64" height="64" rx="8" fill="#f7df1e" />
+                <path
+                  d="M29 18v24c0 5-2 8-7 8-2 0-4-.4-6-1.3l1.5-5c1 .6 2.4 1 3.7 1 2 0 3-.9 3-3V18h4Zm8 18c1.2 2 2.7 3.5 5 3.5 2.1 0 3.4-1 3.4-2.5 0-1.6-1.3-2.1-3.6-3l-1.2-.4c-3.5-1.3-5.8-3-5.8-6.7 0-3.3 2.6-5.8 6.6-5.8 2.9 0 5 1 6.5 3.7l-3.6 2.3c-.8-1.5-1.7-2.1-3-2.1-1.3 0-2.2.8-2.2 2 0 1.4.9 2 3 2.9l1.3.5c4.3 1.7 6.6 3.3 6.6 7 0 4-3.2 6.2-7.5 6.2-4.2 0-6.9-2-8.4-4.6L37 36Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">JavaScript</span>
+          </div>
           <div class="skill-card" role="listitem">
             <div class="skill-icon html" aria-hidden="true">
               <svg
@@ -128,84 +206,6 @@
             </div>
             <span class="skill-label">CSS / Sass</span>
           </div>
-          <div class="skill-card" role="listitem">
-            <div class="skill-icon js" aria-hidden="true">
-              <svg viewBox="0 0 64 64" width="32" height="32">
-                <rect width="64" height="64" rx="8" fill="#f7df1e" />
-                <path
-                  d="M29 18v24c0 5-2 8-7 8-2 0-4-.4-6-1.3l1.5-5c1 .6 2.4 1 3.7 1 2 0 3-.9 3-3V18h4Zm8 18c1.2 2 2.7 3.5 5 3.5 2.1 0 3.4-1 3.4-2.5 0-1.6-1.3-2.1-3.6-3l-1.2-.4c-3.5-1.3-5.8-3-5.8-6.7 0-3.3 2.6-5.8 6.6-5.8 2.9 0 5 1 6.5 3.7l-3.6 2.3c-.8-1.5-1.7-2.1-3-2.1-1.3 0-2.2.8-2.2 2 0 1.4.9 2 3 2.9l1.3.5c4.3 1.7 6.6 3.3 6.6 7 0 4-3.2 6.2-7.5 6.2-4.2 0-6.9-2-8.4-4.6L37 36Z"
-                />
-              </svg>
-            </div>
-            <span class="skill-label">JavaScript</span>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon react" aria-hidden="true">
-              <svg
-                viewBox="0 0 64 64"
-                width="32"
-                height="32"
-                fill="none"
-                stroke="#61dafb"
-                stroke-width="3"
-              >
-                <circle cx="32" cy="32" r="5" fill="#61dafb" />
-                <ellipse cx="32" cy="32" rx="10" ry="26" />
-                <ellipse
-                  cx="32"
-                  cy="32"
-                  rx="26"
-                  ry="10"
-                  transform="rotate(60 32 32)"
-                />
-                <ellipse
-                  cx="32"
-                  cy="32"
-                  rx="26"
-                  ry="10"
-                  transform="rotate(120 32 32)"
-                />
-              </svg>
-            </div>
-            <span class="skill-label">React Native</span>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon python" aria-hidden="true">
-              <svg viewBox="0 0 64 64" width="32" height="32">
-                <path
-                  fill="#3776ab"
-                  d="M32 6c-11 0-10 5-10 5v6h20V11s1-5-10-5Zm-10 11h-6s-5 0-5 10 5 10 5 10h6V27h10v-5H22Zm10 10h10v5h-10v-5Z"
-                />
-                <path
-                  fill="#ffcf3f"
-                  d="M32 58c11 0 10-5 10-5v-6H22v6s-1 5 10 5Zm10-11h6s5 0 5-10-5-10-5-10h-6v10H32v5h10Zm-10-10H22v-5h10v5Z"
-                />
-              </svg>
-            </div>
-            <span class="skill-label">Python</span>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon java" aria-hidden="true">
-              <svg
-                viewBox="0 0 64 64"
-                width="32"
-                height="32"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke="#f89820"
-                  d="M32 6s4 6-4 10c-8 4 8 6 8 6M20 40c-8 4 4 8 12 8s20-4 12-8M22 48c-6 3 2 6 10 6s16-3 10-6"
-                />
-                <path
-                  stroke="#5382a1"
-                  d="M26 34c-6 3 2 6 10 6s16-3 10-6M24 28c-8 4 4 8 12 8s20-4 12-8M34 18c6 3-2 6-10 6"
-                />
-              </svg>
-            </div>
-            <span class="skill-label">Java</span>
-          </div>
           <div class="skill-card">
             <div class="skill-icon shell" aria-hidden="true">$</div>
             <span class="skill-label">Shell Scripting</span>
@@ -231,27 +231,16 @@
             <div class="skill-icon api" aria-hidden="true">{ }</div>
             <span class="skill-label">API</span>
           </div>
-          <div class="skill-card">
-            <div class="skill-icon wordpress" aria-hidden="true">
-              <svg viewBox="0 0 64 64" width="32" height="32">
-                <circle cx="32" cy="32" r="28" fill="#21759b" />
-                <path
-                  fill="#fff"
-                  d="M44 26c0-3-1.1-5.2-2-6.8-1.2-2-2.3-3.7-2.3-5.8 0-1 .2-2 .5-2.8A23 23 0 0 0 32 9c-2.7 0-5.3.5-7.7 1.4.6.9 1.1 1.9 1.1 3 0 1.1-.3 2.2-.9 3.4l-4.2 12.6L25 48l6.7-20-3.2-8.9 3.4-1.4 7.4 21.1 2.4-7.3C42.9 30 44 28.1 44 26Z"
-                />
+           <div class="skill-card">
+            <div class="skill-icon unix" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="32" height="32">
+                <rect x="2" y="2" width="28" height="28" rx="6" fill="#333" />
+                <text x="16" y="21" text-anchor="middle" font-size="13" fill="#fff" font-family="Arial, sans-serif">UNIX</text>
               </svg>
             </div>
-            <span class="skill-label">WordPress</span>
+            <span class="skill-label">Unix</span>
           </div>
-          <div class="skill-card">
-            <div class="skill-icon photoshop" aria-hidden="true">Ps</div>
-            <span class="skill-label">Photoshop</span>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon seo" aria-hidden="true">SEO</div>
-            <span class="skill-label">SEO Optimisation</span>
-          </div>
-          <div class="skill-card">
+           <div class="skill-card">
             <div class="skill-icon spring" aria-hidden="true">
               <svg
                 viewBox="0 0 64 64"
@@ -289,6 +278,26 @@
               </svg>
             </div>
             <span class="skill-label">Git / GitHub</span>
+          </div>
+           <div class="skill-card">
+            <div class="skill-icon seo" aria-hidden="true">SEO</div>
+            <span class="skill-label">SEO Optimisation</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon wordpress" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="32" height="32">
+                <circle cx="32" cy="32" r="28" fill="#21759b" />
+                <path
+                  fill="#fff"
+                  d="M44 26c0-3-1.1-5.2-2-6.8-1.2-2-2.3-3.7-2.3-5.8 0-1 .2-2 .5-2.8A23 23 0 0 0 32 9c-2.7 0-5.3.5-7.7 1.4.6.9 1.1 1.9 1.1 3 0 1.1-.3 2.2-.9 3.4l-4.2 12.6L25 48l6.7-20-3.2-8.9 3.4-1.4 7.4 21.1 2.4-7.3C42.9 30 44 28.1 44 26Z"
+                />
+              </svg>
+            </div>
+            <span class="skill-label">WordPress</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon photoshop" aria-hidden="true">Ps</div>
+            <span class="skill-label">Photoshop</span>
           </div>
         </div>
       </div>
@@ -382,7 +391,7 @@
         <div class="experience-timeline experience-left">
           <h3 class="exp-title">Experience</h3>
           <div class="exp-card">
-            <div class="exp-date">2025 - Present</div>
+            <div class="exp-date">May 2025 <br/> - Present</div>
             <div class="exp-details">
               <h3 class="exp-title">Devloper and SEO Specialist</h3>
               <p class="exp-company">The Study IAS</p>
@@ -390,7 +399,7 @@
             </div>
           </div>
           <div class="exp-card">
-            <div class="exp-date">2023 - 2023</div>
+            <div class="exp-date">Mar 2023 <br> - Sep 2023</div>
             <div class="exp-details">
               <h3 class="exp-title">Freelance Developer</h3>
               <p class="exp-company">Client Based Work</p>
@@ -401,7 +410,7 @@
         <div class="experience-timeline experience-right">
           <h3 class="exp-title">Education</h3>
           <div class="exp-card">
-            <div class="exp-date">2025 - Present</div>
+            <div class="exp-date">Jan 2025 <br> - Present</div>
             <div class="exp-details">
               <h3 class="exp-title">MCA in Software Engineering</h3>
               <p class="exp-company">Amity University</p>
@@ -409,7 +418,7 @@
             </div>
           </div>
           <div class="exp-card">
-            <div class="exp-date">2022 - 2024</div>
+            <div class="exp-date">June 2022 <br>- Dec 2024</div>
             <div class="exp-details">
               <h3 class="exp-title">Advance Diploma in Website Devlopment</h3>
               <p class="exp-company">Indian Institute of Computer Science (IICS)</p>
@@ -417,7 +426,7 @@
             </div>
           </div>
           <div class="exp-card">
-            <div class="exp-date">2021 - 2024</div>
+            <div class="exp-date">June 2021 <br> - Apr 2024</div>
             <div class="exp-details">
               <h3 class="exp-title">Bsc. in Mathematics</h3>
               <p class="exp-company">Patliputra University</p>
